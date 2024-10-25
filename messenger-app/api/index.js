@@ -21,7 +21,7 @@ require('dotenv').config();
 
 
 mongoose
-  .connect("mongodb+srv://aazarjan15003:Home5656@main.dexutzy.mongodb.net/", {
+  .connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
